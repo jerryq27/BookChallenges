@@ -1,0 +1,17 @@
+|Notes|
+
+Abstract Classes
+----------------
+Abstract classes are meant to be super classes for other classes.
+They hold the general information, while subclasses hold the specific information.
+
+Abstract classes are classes not meant to be instantiated, but extended to. 
+They can have fields, constructors, and methods like a normal class, but 
+they can also have abstract methods (methods with no body) in which a class 
+that extends it must override.
+
+A class can also have an abstract method, but once it dos, it can no longer
+be instantiated, essentially, the class becomes an abstract class. 
+
+A subclass can still be instantiated with specifying the super abstract class
+first when creating a new object.
