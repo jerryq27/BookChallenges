@@ -5,6 +5,8 @@ package Chapter13;
  */
 public class SkateboardDesigner {
 
-    
+    public SkateboardDesigner() {
+        
+    }
 
 }
