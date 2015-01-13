@@ -22,3 +22,4 @@ In order to get setLocationRelativeTo(null) to work, it must be called after pac
 pack() shouldn't be used if the size of the content pane is specified.
 pack() can be used with panels, if the panel has a set size (setPreferredSize works, but setSize has issues.)
 pack() can be used with panels, but make sure the panels have components, otherwise it will pack into a small window.
+To re-pack() a window based on a JPanel, for example, call setPreferredSize with a new dimension (that of the panel) then pack().
