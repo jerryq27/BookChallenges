@@ -10,7 +10,6 @@ import java.awt.event.MouseListener;
  */
 public class House extends JPanel {
 
-    private boolean isOpen = false; //Flag for signalling closed windows/door.
     private int[] roofX = {65, 197, 330}; //X-coordinates of the roof.
     private int[] roofY = {175, 110, 175}; //Y-coordinates of the roof.
 
