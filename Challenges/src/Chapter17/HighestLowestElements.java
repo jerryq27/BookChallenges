@@ -1,7 +1,5 @@
 package Chapter17;
 
-import java.awt.*;
-
 /**
  * Created by Gerardo on 3/4/2015.
  */
@@ -36,7 +34,7 @@ public class HighestLowestElements<T extends Comparable<T>> {
     }
 
     public static void main(String[] args) {
-        Float[] floats = {0.5f, 0.3f, 0.7f};
+        Float[] floats = {0.5f, 0.28f, 0.129f, 0.3f, 0.7f, 0.07893f};
         HighestLowestElements search = new HighestLowestElements(floats);
 
         System.out.println(search.getHighest());
