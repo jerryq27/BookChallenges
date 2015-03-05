@@ -29,3 +29,7 @@ Graphics
 The paint method is for JApplets, the paintComponent method is for JPanels, this method is automatically called.
 Call super in the paintComponent method, otherwise there would be drawing errors.
 The repaint method calls the paintComponent method.
+
+Generics
+--------
+Denoted by <>
